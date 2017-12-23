@@ -31,4 +31,5 @@ node default {
   #   class { 'my_class': }
   # test code manager
   notify{'Puppet cert test Control repo':}
+  include ntp
 }
