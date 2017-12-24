@@ -17,4 +17,8 @@ mod 'puppetlabs-stdlib', '4.24.0'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+mod 'ssh',
+  :git    => 'https://github.com/randik-hewage/puppet-ssh',
+  :branch => 'master'
+
 
