@@ -1,6 +1,6 @@
 class profile::apache () {
   class { '::apache':
-    default_vhost     => false
+    default_vhost     => false,
     default_ssl_vhost => false,
 }
 
