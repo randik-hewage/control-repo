@@ -21,4 +21,8 @@ mod 'ssh',
   :git    => 'https://github.com/randika-hewage/puppet-ssh',
   :branch => 'master'
 
+mod 'ntp',
+  :git    => 'https://github.com/randika-hewage/puppet-ntp',
+  :branch => 'master'
+
 
