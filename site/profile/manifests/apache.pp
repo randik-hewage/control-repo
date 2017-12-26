@@ -12,7 +12,7 @@ apache::vhost { $facts['fqdn']:
   before => File["${doc_root}/index.html"],
 }
 
-file { "${doc_root}/index.html"
+file { "${doc_root}/index.html":
   ensure => file,
   content => "This is a test page",
   }  
